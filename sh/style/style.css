@@ -1,0 +1,202 @@
+body{
+    font-size: 18px;
+    text-align: center;
+    background: rgb(199,134,11,0.28);
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+
+hr{
+    border-color: #b8860b;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Header Css */
+
+header hr, .subscribeForm hr{
+    width: 23%;
+    margin-top: -8px;
+    margin-bottom: -2px;
+    border-color: #b8860b;
+}
+
+#inclusivityHeading{
+    font-size: 48px;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+
+.heading{
+    color: rgb(209, 0, 0);
+}
+
+.headingImg{
+    margin: auto;
+    width:80%;
+    height: 10%;
+    background:#f4e3c3aa;
+    border-radius: 3px;
+    padding: 10px auto 40px;
+}
+/* End of Header Css */
+
+.container{
+    width: 80%;
+    margin:inherit;
+    padding: 30px 20px 30px 20px;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.box{
+    margin: inherit;
+    padding: 20px 120px 10px;
+    text-align: left;
+}
+
+/* Today's content css */
+
+.cart-container{
+    background:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-wrap: wrap;
+    height: fit-content;;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    background: #fff9eaeb;
+    margin-right: 30px;
+    padding: 20px 20px 4px 20px;
+    text-align: center;
+    align-self: center;
+}
+
+.card img{
+    width: 100%; 
+}
+
+/* Section Css */
+.article-contents{
+    margin-top: 30px;
+}
+
+#benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: centers;
+    padding-right: 20px;
+}
+
+.img-section{
+    width: 10%;
+    padding-right: 20px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+/* Table Css */
+
+table{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px auto;
+}
+
+th{
+    background-color: #fffde14f;;
+}
+
+th ,td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(199, 182, 138, 0.39);
+}
+
+.conclusion{
+    display: inline-block;
+}
+/* Form Css */
+  
+.subscribeForm{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.056);
+    padding: 20px;
+}
+
+.subscribeForm h2{
+    text-align: center;
+}
+
+
+.formGroup {
+    padding-bottom: 0;
+  }
+  
+  
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    line-height: 20px;
+    background: rgb(253, 244, 232) ;
+  }
+  
+button[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+/* End of form style */
+
+  footer{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: 50px;
+  }
