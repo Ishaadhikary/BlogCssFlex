@@ -70,30 +70,49 @@ header hr, .subscribeForm hr{
     padding: 20px 120px 10px;
     text-align: left;
 }
+/* Main Flex- Whole Card */
+
+.whole-card{
+    display: flex;
+    flex-direction: row;
+}
 
 /* Today's content css */
 
+.side-bar-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background:antiquewhite;
+    margin-top: 24px;
+    padding: 10px 15px 20px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    order:2
+
+}
 .cart-container{
     background:antiquewhite;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    padding: 10px 15px 20px;
+    padding: 20px 15px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     flex-wrap: wrap;
-    height: fit-content;;
+    height: fit-content;
+    order:1;
 }
 
 .content-card{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    align-self: center;
 }
 
 .card{
     background: #fff9eaeb;
-    margin-right: 30px;
-    padding: 20px 20px 4px 20px;
+    margin-top: 30px;
+    padding: 20px 20px 4px 10px;
     text-align: center;
     align-self: center;
 }
@@ -102,9 +121,34 @@ header hr, .subscribeForm hr{
     width: 100%; 
 }
 
+.sideimgCard{
+    background: #fff9eaeb;
+    margin-top: 30px;
+    padding: 20px 20px 4px 20px;
+}
+
+.sideimgCard img{
+    width: 100%; 
+}
+
+.sideimgCard p{
+    font-weight: 200px;
+}
+
+.side-bar-container hr{
+        margin-top:20px;
+        margin-bottom: -10px;
+}
+
+.side-bar-container h2{
+    text-align: center;
+    font-size: 20px;
+}
+
 /* Section Css */
 .article-contents{
     margin-top: 30px;
+    margin-right: 40px;
 }
 
 #benefits{
